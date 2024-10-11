@@ -8,8 +8,8 @@ def send_password_reset_email(to_email: str, reset_code: str):
     # SMTP server configuration
     smtp_server= 'smtp.gmail.com' 
     smtp_port = 587
-    smtp_username = 'bhushan.chaudhari@thinkitive.com' 
-    smtp_password = '@MGDC9LJq4545'  
+    smtp_username = 'your_email' 
+    smtp_password = 'your_password'  
 
     # Email content
     from_email = 'bhushan.chaudhari@thinkitive.com'
